@@ -1,0 +1,22 @@
+{
+  "name": "koa-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "src/server.js",
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^24.0.0",
+    "jsonwebtoken": "latest",
+    "koa": "latest",
+    "koa-body": "latest",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "latest",
+    "koa-router": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "scripts": {
+    "dev": "DEBUG=* NODE_ENV=local nodemon --inspect --harmony src/server.js"
+  }
+}
